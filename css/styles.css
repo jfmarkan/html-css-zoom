@@ -39,8 +39,6 @@ main{
 }
 
 footer{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: #222;
     height: 80px;
@@ -48,8 +46,6 @@ footer{
 
 footer ul{
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
     height: 100%;
 }
 
@@ -65,14 +61,12 @@ footer ul li{
 div.room-actions{
     flex-basis: 50%;
     height: 100%;
-    display: flex;
     justify-content: center;
 }
 
 .container{
     width: 91%;
     margin: 0 auto;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -110,7 +104,6 @@ img{
     background-color: #4a4a4a;
     color: red;
     padding: 1rem;
-    display: flex;
     align-items: center;
 }
 

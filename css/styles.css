@@ -18,8 +18,59 @@ body{
     width: 100vw;
 }
 
+header{
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+button{
+    background-color:  rgba(255, 255, 255, 0.4);
+    border: none;
+    
+    
+    border-radius: 5px;
+    padding: 0.2rem .4rem;
+    color: #FFF;
+}
+
+main{
+    overflow: scroll;
+    padding-top: 80px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222;
+    height: 100px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    padding: 0 0.5rem;
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.room-actions{
+    flex-basis: 50%;
+    height: 100%;
+    
+}
+
 .container{
-    width: 95%;
+    width: 91%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -28,8 +79,10 @@ body{
 
 div.participant{
     position: relative;
-    width: calc((100% / 7) - 10px);
+    width: calc((100% / 7) - 8px);
     min-width: 150px;
+    max-height: 150px;
+    margin-bottom: 0.5rem;
 }
 
 div.participant-info{
@@ -47,4 +100,23 @@ div.participant-info{
 
 img{
     width: 100%;
+}
+
+.kill-meeting{
+    background-color: #4a4a4a;
+    color: red;
+    padding: 1rem;
+}
+
+footer i{
+    font-size: 30px;
+    justify-content: center;
+}
+
+i.fa-chevron-up{
+    font-size: 10px;
+}
+
+.my-devices ul li{
+    justify-content: center;
 }
